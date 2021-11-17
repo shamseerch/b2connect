@@ -1,0 +1,243 @@
+CRITICAL - 2021-11-16 22:11:07 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 22:17:05 --> file_get_contents(http://dummy.restapiexample.com/api/v1/employees): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(43): file_get_contents('http://dummy.re...')
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->api()
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#4 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-16 22:21:34 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->api()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 22:31:09 --> Undefined property: stdClass::$Nation
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->api()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 22:31:29 --> Undefined property: stdClass::$Nation
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->api()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 22:33:13 --> Undefined property: stdClass::$Nation
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->api()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 22:46:06 --> Undefined array key "Nation"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(33): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 22:46:17 --> Undefined array key "Nation"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(58): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 22:50:04 --> Undefined array key "day"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(52): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 22:59:59 --> Undefined array key "year"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(52): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 23:00:29 --> Undefined property: stdClass::$year
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 23:00:43 --> Undefined property: stdClass::$year
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->api()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-16 23:02:05 --> Undefined array key "Nation"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(52): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 23:02:24 --> Undefined array key "Year"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(52): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 23:04:06 --> Undefined array key "Nation"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(52): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 23:04:15 --> Undefined array key "year"
+#0 C:\xampp\htdocs\real-time\ci\app\Views\chart.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('chart', Array, true)
+#4 C:\xampp\htdocs\real-time\ci\app\Controllers\GColumnChartController.php(52): view('chart', Array)
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\GColumnChartController->initChart()
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GColumnChartController))
+#7 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-16 23:36:48 --> Attempt to read property "data" on null
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->check()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:37:43 --> Attempt to read property "data" on null
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->check()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:37:50 --> Attempt to read property "data" on null
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->check()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:38:00 --> Attempt to read property "data" on null
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->check()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:38:30 --> Attempt to read property "data" on null
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->check()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:39:13 --> Attempt to read property "data" on null
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->check()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:43:32 --> Unclosed '{' on line 15 does not match ')'
+#0 C:\xampp\htdocs\real-time\ci\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('IpDetails/check')
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('IpDetails/check')
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:44:49 --> Unclosed '{' on line 15 does not match ')'
+#0 C:\xampp\htdocs\real-time\ci\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('IpDetails/check')
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('IpDetails/check')
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:44:57 --> Unclosed '{' on line 15 does not match ')'
+#0 C:\xampp\htdocs\real-time\ci\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('IpDetails/check')
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('IpDetails/check')
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:48:03 --> Undefined variable $data
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->index()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:48:19 --> Undefined variable $data
+#0 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->index()
+#2 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#3 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\real-time\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-16 23:56:08 --> Call to undefined function printr()
+#0 C:\xampp\htdocs\real-time\ci\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\real-time\ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\real-time\ci\system\Common.php(1097): CodeIgniter\View\View->render('ip', Array, true)
+#3 C:\xampp\htdocs\real-time\ci\app\Controllers\IpDetails.php(28): view('ip', Array)
+#4 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(824): App\Controllers\IpDetails->index()
+#5 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IpDetails))
+#6 C:\xampp\htdocs\real-time\ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\real-time\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
